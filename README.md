@@ -1,20 +1,9 @@
-# yup-while
+[![actions](https://github.com/yupsh/yup-while/actions/workflows/actions.yml/badge.svg)](https://github.com/yupsh/yup-while/actions/workflows/actions.yml)
+[![ci](https://github.com/yupsh/yup-while/actions/workflows/ci.yml/badge.svg)](https://github.com/yupsh/yup-while/actions/workflows/ci.yml)
+[![dockerfiles](https://github.com/yupsh/yup-while/actions/workflows/dockerfiles.yml/badge.svg)](https://github.com/yupsh/yup-while/actions/workflows/dockerfiles.yml)
+[![docs](https://github.com/yupsh/yup-while/actions/workflows/docs.yml/badge.svg)](https://github.com/yupsh/yup-while/actions/workflows/docs.yml)
+[![go](https://github.com/yupsh/yup-while/actions/workflows/go.yml/badge.svg)](https://github.com/yupsh/yup-while/actions/workflows/go.yml)
+[![release](https://github.com/yupsh/yup-while/actions/workflows/release.yml/badge.svg)](https://github.com/yupsh/yup-while/actions/workflows/release.yml)
+[![shell](https://github.com/yupsh/yup-while/actions/workflows/shell.yml/badge.svg)](https://github.com/yupsh/yup-while/actions/workflows/shell.yml)
 
-```
-NAME:
-   while - read from stdin and process line by line
-
-USAGE:
-   while COMMAND [ARG...]
-
-   Read standard input line by line, running COMMAND for each line. Each line is
-   piped to COMMAND's standard input and replaced by COMMAND's standard output
-   (with one trailing newline trimmed).
-
-VERSION:
-   dev
-
-GLOBAL OPTIONS:
-   --help, -h  show help
-   --version   print version information and exit
-```
+[docs](https://yupsh.github.io/docs.repl/)

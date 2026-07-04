@@ -1,0 +1,14 @@
+# Per-repo stickler overlay (deep-merged onto the distributed .golangci.yaml).
+#
+# yup-while runs a user-supplied command once per input line — executing that
+# command IS the tool's purpose (a streaming `while read; do <cmd>; done`). gosec
+# G204 (subprocess launched with tainted input) therefore fires on the very thing
+# the command exists to do; it is a false positive here, excluded with intent.
+config:
+  golangci-lint:
+    linters:
+      settings:
+        gosec:
+          excludes:
+            add:
+              - G204

@@ -3,8 +3,8 @@ module github.com/yupsh/yup-while
 go 1.26.4
 
 require (
-	github.com/gloo-foo/cli v0.1.12
-	github.com/gloo-foo/cmd-while v0.1.8
+	github.com/gloo-foo/cli v0.1.14
+	github.com/gloo-foo/cmd-while v0.1.11
 	github.com/spf13/afero v1.15.0
 	github.com/urfave/cli/v3 v3.10.1
 )
